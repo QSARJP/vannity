@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 /indexVannity.html
+web: vendor/bin/heroku-php-apache2 /
