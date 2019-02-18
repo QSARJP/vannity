@@ -33,6 +33,8 @@ contrasenaSesion varchar(20),
 rol int(11)
 )ENGINE=INNODB ; 
 
+INSERT INTO 'personasEmpresa'  ('ID_Persona','nombre','apellido','email','celular','usuarioSesion','contrasenaSesion','rol') VALUES
+(1,'PRUEBA','PREUBA','PRUEBA@ADFSAF.COM','3246533456','prueba','prueba',1);
 
 CREATE TABLE IF NOT EXISTS rol(
 ID_Rol int not null  PRIMARY KEY AUTO_INCREMENT,
