@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 /logInClieWeb_frontEnd.php
+web: vendor/bin/heroku-php-apache2 /sistema
