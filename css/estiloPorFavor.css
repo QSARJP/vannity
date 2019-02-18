@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h3{
+	font-family: "Playfair Display", Georgia, serif;
+	font-size: 18pt;
+	letter-spacing: 1px;
+	width: 100%;
+	padding: 15px;
+	color: #002440;
+	text-align: center;
+	
+}
+
+body{
+	background-image: url(bgInicioAdminOk.png);
+}
+
+#container{
+	
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+#container form{
+	background: #FFF;
+	width: 400px;
+	padding: 10px;
+	margin-left: 10%;
+	margin-top: 60px;
+}
+
+#container form img{
+	margin: 15px auto;
+	text-align: center;
+	display: block;
+}
+#container form input{
+	width: 90%;
+	padding: 5px;
+	font-size: 16pt;
+	display: block;
+	margin: 25px auto;
+	border-radius: 5px;
+	border: 1px solid  #85929e;
+	text-align: center;
+}
+
+#container form input[type="submit"]{
+	background:  #F39278;
+	padding: 10px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+}
+.alert{
+	font-family: 'Arial';
+	font-size: 16px;
+	text-align: center;
+}
